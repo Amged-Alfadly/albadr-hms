@@ -1,0 +1,40 @@
+﻿# ==========================================
+# Al-Badr HMS - Git Ignore Rules
+# ==========================================
+
+# Environment & Sensitive configs
+.env
+.env.*
+!.env.example
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# Editor & IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# Logs & Temporary Files
+*.log
+error_log
+access_log
+*.tmp
+*.temp
+*.bak
+
+# Package Managers / Vendors (if applicable)
+vendor/
+node_modules/
